@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">SHAKA</string>
+    <string name="app_subtitle">Sonar de Señal Wi-Fi</string>
+
+    <!-- Navigation & Header -->
+    <string name="sonar_title">SHAKA SONAR</string>
+    <string name="settings_title">Configuración</string>
+    <string name="networks_title">Redes Wi-Fi Cercanas</string>
+    <string name="select_network">Seleccionar Red</string>
+    <string name="no_network_selected">Ninguna red seleccionada</string>
+    <string name="tap_to_select_network">Toca para seleccionar una red objetivo</string>
+
+    <!-- Controls -->
+    <string name="start_sonar">Iniciar Sonar</string>
+    <string name="stop_sonar">Detener Sonar</string>
+    <string name="sonar_active">SONAR ACTIVO</string>
+    <string name="sonar_idle">SONAR INACTIVO</string>
+
+    <!-- Modes -->
+    <string name="mode_hard">HARD</string>
+    <string name="mode_soft">SOFT</string>
+    <string name="mode_hard_desc">Escaneo activo frecuente y filtro ágil</string>
+    <string name="mode_soft_desc">Escaneo conservador (30-60s) y filtro suave</string>
+
+    <!-- Feedback Modes -->
+    <string name="feedback_mode">Modo de Respuesta</string>
+    <string name="feedback_visual_and_audio">Visual + Audio</string>
+    <string name="feedback_visual_only">Solo Visual</string>
+    <string name="feedback_audio_only">Solo Audio</string>
+
+    <!-- Signal qualities -->
+    <string name="quality_excellent">Excelente</string>
+    <string name="quality_good">Buena</string>
+    <string name="quality_moderate">Aceptable</string>
+    <string name="quality_weak">Débil</string>
+    <string name="quality_critical">Crítica</string>
+    <string name="quality_unknown">Sin señal</string>
+
+    <!-- Signal trends -->
+    <string name="trend_improving">Mejorando</string>
+    <string name="trend_deteriorating">Deteriorando</string>
+    <string name="trend_stable">Estable</string>
+
+    <!-- Age and status -->
+    <string name="measurement_age_now">Ahora mismo</string>
+    <string name="measurement_age_seconds">Hace %d s</string>
+    <string name="measurement_stale">Medición desactualizada</string>
+
+    <!-- Panels -->
+    <string name="panel_diagnostics">Diagnóstico de Capacidades</string>
+    <string name="panel_event_log">Registro de Eventos</string>
+    <string name="panel_session_stats">Estadísticas de Sesión</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_wifi_enabled">Estado de Wi-Fi</string>
+    <string name="diag_location_enabled">Servicio de Ubicación</string>
+    <string name="diag_scan_throttle">Limitación de Escaneo (Throttling)</string>
+    <string name="diag_throttle_enabled">Habilitada por el SO</string>
+    <string name="diag_throttle_disabled">Deshabilitada</string>
+    <string name="diag_throttle_unknown">Desconocida (API &lt; 30)</string>
+    <string name="diag_permissions">Permisos de Escaneo</string>
+    <string name="diag_permission_granted">Concedidos</string>
+    <string name="diag_permission_missing">Faltantes</string>
+    <string name="diag_disclaimer_title">Limitación técnica importante</string>
+    <string name="diag_disclaimer_body">Android no provee dirección física hacia el Punto de Acceso mediante RSSI. SHAKA mide únicamente intensidad de señal, no dirección ni distancia física absoluta.</string>
+
+    <!-- Session Stats -->
+    <string name="stats_duration">Duración de sesión:</string>
+    <string name="stats_measurements">Mediciones recibidas:</string>
+    <string name="stats_active_scans">Escaneos solicitados:</string>
+    <string name="stats_rejected_scans">Escaneos rechazados:</string>
+    <string name="stats_rssi_range">Rango RSSI (Mín / Prom / Máx):</string>
+
+    <!-- Event Log -->
+    <string name="log_limit_setting">Límite de eventos en memoria</string>
+    <string name="log_events_count">%d eventos</string>
+    <string name="log_unlimited">Sin límite (máx. 500)</string>
+    <string name="log_empty">No hay eventos registrados en esta sesión.</string>
+
+    <!-- Permissions Dialog -->
+    <string name="permission_required_title">Permisos requeridos</string>
+    <string name="permission_required_message">Para descubrir redes Wi-Fi y leer la intensidad de señal (RSSI), Android requiere permisos de ubicación y/o dispositivos cercanos.</string>
+    <string name="grant_permission">Conceder permisos</string>
+    <string name="open_settings">Abrir Ajustes</string>
+
+    <!-- Alerts and Errors -->
+    <string name="error_wifi_disabled">El Wi-Fi está desactivado. Actívalo para usar el sonar.</string>
+    <string name="error_location_disabled">Los servicios de ubicación están desactivados. Android los requiere para escanear Wi-Fi.</string>
+    <string name="warning_throttled">Android ha limitado la frecuencia de escaneo. El sonar continúa escuchando resultados pasivos.</string>
+    <string name="warning_target_missing">El BSSID objetivo no fue detectado en el último escaneo.</string>
+    <string name="warning_audio_failed">Error al iniciar el subsistema de audio. La respuesta visual continúa activa.</string>
+</resources>
